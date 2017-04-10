@@ -1,0 +1,26 @@
+descargar typescript:  sudo npm i -g typescript
+
+para compilar es: tsc nombre.ts
+para hacerlo rapido: tsc --watch nombre.tsc
+
+crear nuevo proyecto:  tsc --init
+
+una vez creado el tsconfig, solo se pone: tsc --watch
+transpila todos los archivos
+
+se utiliza systemjs: <script src="https://unpkg.com/systemjs@0.19.39/dist/system.src.js"></script>
+revisar: http://lishman.io/angular-2-configuration
+
+levantar servidor python: http://www.systerminal.com/2015/08/05/convierte-tu-linux-en-un-servidor-web-en-menos-de-un-minuto/
+$ python -V
+ Python 2.7.9
+$ python -m SimpleHTTPServer 8000
+
+typings- carga de librerias extras para el transpilador
+instalar : sudo npm i -g typings
+instalar referencia  de jquery (dt= es una definicion): typings install dt~jquery --global --save
+
+
+
+
+

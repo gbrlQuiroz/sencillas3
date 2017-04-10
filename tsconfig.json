@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false, //sino se define tipo, es Any
+        "sourceMap": true, // SI  hay ruta donde trabajar los archivos
+        "sourceRoot": "project", // la ruta es: project
+        "outDir": "dist", //donde TRANSPILARA los archivos
+        "noEmitOnError": false  //si hay errores no crear transpilados
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
